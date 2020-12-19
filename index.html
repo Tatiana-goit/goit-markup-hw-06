@@ -421,6 +421,54 @@
                     <use href="./images/sprite.svg#close"></use>
                 </svg>
             </bottom>
+
+            <form class="modal-form">
+                <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
+                
+                <label class="modal-form-field">
+                    Имя
+                    <span class="modal__form-input-wrapper">
+                        <input type="text" name="user-name" class="modal-form-input">  
+                        <svg class="modal-form-icon">
+                            <use href="./images/sprite.svg#form01"></use>
+                        </svg>
+                    </span>
+                </label>
+                
+                <label class="modal-form-field">
+                    Телефон
+                        <span class="modal__form-input-wrapper">
+                        <input type="tel" name="user-tel" class="modal-form-input">
+                        <svg class="modal-form-icon">
+                            <use href="./images/sprite.svg#form02"></use>
+                        </svg>
+                    </span>
+                </label>
+
+                <label class="modal-form-field">
+                    Почта
+                    <span class="modal__form-input-wrapper">
+                        <input type="email" name="user-email" class="modal-form-input">
+                        <svg class="modal-form-icon">
+                            <use href="./images/sprite.svg#form03"></use>
+                        </svg>
+                    </span>
+                </label>
+
+                <label class="modal-form-field">
+                    Комментарий
+                    <textarea name="user-comment" class="modal-form-input modal-form-texarea" placeholder="Введите текст"></textarea>    
+                </label>
+
+                <label class="modal-form-field">
+                    <input type="checkbox" name="user-policy" value="accept-policy" class="modal-form-policy">
+                    Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a>
+                </label>
+
+                <button type="submit" class="hero-button">
+                    Отправить
+                </button>
+            </form>
         </div>
     </div>
 
