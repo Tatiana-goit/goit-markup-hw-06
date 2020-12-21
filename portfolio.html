@@ -257,7 +257,7 @@
     <div class="contener">
         <div class="footer-left-side">
             <h2 class="visually-hidden">Контакты</h2>
-            <a class="logo" href="./index.html" lang="en"><span class="logo-first">Web</span>Studio </a>
+            <a class="logo" href="index.html" lang="en"><span class="logo-first">Web</span>Studio </a>
             <address class="contact">
                 <ul class="contact-list">
                     <li class="contact-list-item">
@@ -274,8 +274,9 @@
                 </ul>
             </address>
         </div>
-        <div class="footer-right-side">
-            <p>Присоединяйтесь</p>
+
+        <div class="footer-center-side">
+            <p class="fotter-side-title">Присоединяйтесь</p>
             <ul class="social-list">
                 <li class="social-list-item">
                     <a class="social-list-link" href="">
@@ -314,7 +315,24 @@
 
         </div>
 
+        <div class="footer-right-side">
+            <form action="#">
+                <p class="fotter-side-title">Подпишитесь на рассылку</p>
+                <div class="footer-form">
+                    <input type="email" name="user-email" class="footer-form-email-input" placeholder="E-mail">
+                    <button type="submit" class="button">
+                        Подписаться
+                        <svg class="footer-form-button-icon">
+                            <use href="./images/sprite.svg#send"></use>
+                        </svg>
+
+                    </button>
+                </div>
+            </form>
+        </div>
+
     </div>
 </footer>
+
 </body>
 </html>
