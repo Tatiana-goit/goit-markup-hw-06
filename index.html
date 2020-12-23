@@ -472,17 +472,19 @@
                     </span>
                 </label>
 
-                <label class="modal-form-field">
+                <label class="modal-form-comment">
                     Комментарий
                     <textarea name="user-comment" class="modal-form-texarea" placeholder="Введите текст"></textarea>    
                 </label>
-
-                <input type="checkbox" id="user-policy" name="user-policy" value="accept-policy"
-                    class="modal-form-policy visually-hidden">
-                <label for="user-policy" class="modal-form-policy-text">
-                    Соглашаюсь с рассылкой и принимаю&nbsp; <a href="#" class="a-form">Условия договора</a>
-                </label>
-             
+                
+                <div class="modal-form-policy">
+                    <input type="checkbox" id="user-policy" name="user-policy" value="accept-policy"
+                        class="modal-form-checkbox visually-hidden">
+                    <label for="user-policy" class="modal-form-policy-text">
+                        Соглашаюсь с рассылкой и принимаю&nbsp; <a href="#" class="a-form">Условия договора</a>
+                    </label>
+                </div>
+                             
                 <button type="submit" class="button">
                     Отправить
                 </button>

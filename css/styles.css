@@ -707,6 +707,16 @@ img {
 }
 
 .modal-form-field {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.667;
+  letter-spacing: 0.01em;
+  color: var(--text-color);
+}
+
+.modal-form-comment {
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.667;
@@ -718,7 +728,6 @@ img {
   position: relative;
   display: block;
   margin-top: 4px;
-  margin-bottom: 10px;
 }
 
 .modal-form-input {
@@ -750,6 +759,7 @@ img {
 }
 
 .modal-form-texarea {
+  display: block;
   width: 100%;
   height: 120px;
   margin-top: 4px;
@@ -766,10 +776,12 @@ img {
 }
 
 .modal-form-policy {
+  display: flex;
+  justify-content: center;
 }
 
 .modal-form-policy-text {
-  display: block;
+  /* display: block;*/
   display: flex;
   align-items: center;
   margin-top: 18px;
@@ -799,6 +811,7 @@ img {
 
 .a-form {
   text-decoration: underline;
+  color: var(--accent-color);
 }
 /*===============END BACKDROP========*/
 
